@@ -7,8 +7,6 @@ Assignment #2
 @import url(http://fonts.googleapis.com/css?family=Raleway:300);
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400);
 
-
-
 h1, h2 {
 	font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -26,10 +24,6 @@ h3 {
 }
 
 #main {
-/*	margin-left:30%;
-	margin-right:20px;
-	margin-top:20px;
-	margin-bottom:20px;*/
 	background-image:url(../img/ricepaper_v3.png);
 	opacity:0.9;
 }
@@ -81,18 +75,11 @@ header h1 {
 	font-size: 300%;
 }
 
-#info p, header h1, header h2 {
+#info p, header h1, header h2, nav ul {
 	margin:0;
 }
 
-body{
-/*	background-image: url(../img/background.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size:cover;*/
-}
-
-body p {
+body {
 	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 16px;
 }
@@ -124,7 +111,6 @@ nav a:hover, input:focus {
 
 nav ul {
 	padding:0;
-	margin:0;
 }
 
 nav li {
@@ -156,15 +142,11 @@ nav li {
 	#slogan {
 		display:inline;
 	}
+
 	nav {
 		position:absolute;
-		top:10px;
-		right:10px;
-
-	}
-	header nav {
 		top:30px;
-		right:20px;
+		right:30px;
 	}
 }
 
